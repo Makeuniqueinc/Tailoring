@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>New Tailoring Training Centre (Women)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf5ee;--card:#fff;--soft:#f6e3e8;--lav:#ece6f5;--ink:#3a2530;--mute:#6f5a63;--mar:#7a1f3d;--mar2:#5e1530;--pink:#d98aa3;--line:#ead9de;--wa:#1f8f55;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d1217;--card:#2a1b22;--soft:#38222c;--lav:#2f2638;--ink:#f5e9ee;--mute:#c9b3bd;--mar:#e58fae;--mar2:#c96f90;--line:#47303a}}
+:root[data-theme="dark"]{--bg:#1d1217;--card:#2a1b22;--soft:#38222c;--lav:#2f2638;--ink:#f5e9ee;--mute:#c9b3bd;--mar:#e58fae;--mar2:#c96f90;--line:#47303a}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{background:var(--bg);color:var(--ink);font:16px/1.65 Poppins,system-ui,sans-serif;padding-bottom:76px}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;line-height:1.2;color:var(--mar)}
+h2{font-size:clamp(1.6rem,5vw,2.3rem);text-align:center}
+.wrap{max-width:1080px;margin:auto;padding:0 20px}
+section{padding:56px 0}
+.sub{text-align:center;color:var(--mute);max-width:560px;margin:8px auto 28px}
+.btn{display:inline-block;padding:13px 24px;border-radius:999px;font-weight:600;text-decoration:none;border:2px solid var(--mar);cursor:pointer;font:600 15px Poppins,sans-serif;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px)}
+.pri{background:var(--mar);color:#fff}.pri:hover{background:var(--mar2)}
+.out{background:transparent;color:var(--mar)}
+.wa{background:var(--wa);border-color:var(--wa);color:#fff}
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:58px}
+.logo{font:700 1rem 'Playfair Display',serif;color:var(--mar);text-decoration:none}
+nav{display:none;gap:22px}nav a{color:var(--ink);text-decoration:none;font-size:14px;font-weight:500}nav a:hover{color:var(--mar)}
+@media(min-width:760px){nav{display:flex}}
+.hero{background:linear-gradient(160deg,var(--soft),var(--lav));text-align:center;padding:64px 0 56px;position:relative;overflow:hidden}
+.hero svg.bg{position:absolute;right:-30px;top:20px;width:220px;opacity:.18;color:var(--mar)}
+.hero h1{font-size:clamp(2rem,8vw,3.4rem)}
+.tag{font:600 clamp(1.1rem,4vw,1.5rem) 'Playfair Display',serif;color:var(--ink);margin:12px 0}
+.hero p{max-width:540px;margin:0 auto 22px;color:var(--mute)}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.pill{display:inline-block;margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 18px;font-size:14px;font-weight:500}
+.cert{background:var(--card);border:2px solid var(--pink);border-radius:20px;padding:26px;max-width:720px;margin:auto;text-align:center}.cert p{color:var(--mute);margin-top:8px}.addr{text-align:center;margin-bottom:22px}.addr a{color:var(--mar);font-weight:600}
+.tm{display:grid;gap:16px;max-width:640px;margin:auto}
+@media(min-width:600px){.tm{grid-template-columns:1fr 1fr}}
+.slot{background:var(--card);border:2px solid var(--line);border-radius:18px;padding:24px;text-align:center}
+.slot b{display:block;font:700 1.4rem 'Playfair Display',serif;color:var(--mar)}
+.slot span{font-size:13px;color:var(--mute);text-transform:uppercase;letter-spacing:.08em}
+.note{text-align:center;margin-top:18px;color:var(--mute)}
+.grid{display:grid;gap:18px}
+@media(min-width:600px){.grid{grid-template-columns:1fr 1fr}}
+@media(min-width:960px){.grid{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:8px;transition:transform .25s,box-shadow .25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 10px 26px rgba(122,31,61,.12)}
+.card h3{font-size:1.25rem}
+.dur{font-size:13px;color:var(--mute)}
+.fee{font:700 1.7rem 'Playfair Display',serif;color:var(--mar)}
+.fee small{display:block;font:500 12px Poppins,sans-serif;color:var(--mute)}
+.split{display:flex;gap:10px}.split div{flex:1;background:var(--soft);border-radius:12px;padding:8px 10px;font-size:12px;color:var(--mute)}
+.split b{display:block;font:700 1.3rem 'Playfair Display',serif;color:var(--mar)}
+.pre{font-size:13px;background:var(--lav);border-radius:10px;padding:8px 12px}
+.card p{font-size:14px;color:var(--mute);flex:1}
+.card .btn{text-align:center;padding:10px;margin-top:6px}
+.starter{border:2px solid var(--pink);position:relative}
+.badge{position:absolute;top:-12px;left:18px;background:var(--mar);color:#fff;font-size:12px;font-weight:600;padding:3px 12px;border-radius:999px}
+.path{display:grid;gap:18px;max-width:900px;margin:auto}
+@media(min-width:760px){.path{grid-template-columns:repeat(3,1fr)}}
+.pc{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;text-align:center}
+.pc h3{font:600 .85rem Poppins,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:var(--mute);margin-bottom:10px}
+.step{background:var(--soft);border-radius:12px;padding:9px;font-weight:600;color:var(--mar)}
+.arr{color:var(--pink);font-size:20px;line-height:1.4}
+.pc small{display:block;margin-top:12px;color:var(--mute);font-size:12.5px}
+.feat{text-align:left}.feat .ic{width:42px;height:42px;border-radius:50%;background:var(--soft);display:grid;place-items:center;font-size:20px}
+.batch{background:linear-gradient(135deg,var(--mar),var(--mar2));color:#fff;text-align:center}
+.batch h2{color:#fff}
+.bg2{display:flex;flex-direction:column;align-items:center;gap:10px;margin:24px 0}
+@media(min-width:600px){.bg2{flex-direction:row;justify-content:center;gap:24px}}
+.bx{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:18px;padding:20px 32px}
+.bx b{display:block;font:700 1.6rem 'Playfair Display',serif}
+.or{font-weight:600;opacity:.8}
+.batch .btn{background:#fff;color:var(--mar2);border-color:#fff}
+.tbl{max-width:640px;margin:auto;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+table{width:100%;border-collapse:collapse}
+th,td{padding:13px 16px;text-align:left;font-size:15px}
+th{background:var(--soft);color:var(--mar);font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+tr+tr td{border-top:1px solid var(--line)}
+td:last-child{font-weight:600;color:var(--mar);text-align:right;white-space:nowrap}th:last-child{text-align:right}
+.cta{background:var(--soft);text-align:center}
+.cta .btns{margin:20px 0 30px}
+form{max-width:520px;margin:auto;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px;text-align:left;display:grid;gap:14px}
+label{font-size:13px;font-weight:600}
+input,select,textarea{width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font:15px Poppins,sans-serif;margin-top:4px}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--pink)}
+.ok{display:none;background:var(--lav);border-radius:12px;padding:16px;text-align:center;color:var(--mar);font-weight:600}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;max-width:700px;margin:0 auto 10px}
+summary{cursor:pointer;font-weight:600}
+details p{margin-top:8px;color:var(--mute);font-size:15px}
+footer{background:var(--mar2);color:#f6e9ee;text-align:center;padding:36px 0}
+footer h3{color:#fff;font-size:1.2rem}
+footer nav{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 18px;margin:14px 0}
+footer nav a{color:#f6e9ee}
+footer small{opacity:.8}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:30;display:flex;gap:8px;padding:8px 12px calc(8px + env(safe-area-inset-bottom,0px));background:var(--card);border-top:1px solid var(--line)}
+.bar a{flex:1;text-align:center;padding:11px 4px;border-radius:12px;font-weight:600;font-size:14px;text-decoration:none;color:#fff}
+@media(min-width:760px){.bar{display:none}body{padding-bottom:0}}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s}.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><a class="logo" href="#home">New Tailoring Training Centre</a>
+<nav><a href="#home">Home</a><a href="#courses">Courses</a><a href="#timings">Timings</a><a href="#about">About</a><a href="#contact">Contact</a></nav></div></header>
+
+<section class="hero" id="home">
+<svg class="bg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="30" cy="70" r="12"/><circle cx="55" cy="75" r="12"/><path d="M36 60 L80 12M50 65 L20 14"/><path d="M10 92c20-10 40 8 80-4" stroke-dasharray="4 4"/></svg>
+<div class="wrap rv">
+<h1>New Tailoring Training Centre (Women)</h1>
+<div class="tag">Learn Tailoring. Build Skills. Create Your Future.</div>
+<p>Practical tailoring training with flexible batch timings and a variety of courses for beginners and experienced learners.</p>
+<div class="btns"><a class="btn pri" href="#courses">View Courses</a><a class="btn out" href="#contact">Enquire Now</a></div>
+<div class="pill">Monday – Friday | Choose Your Convenient Batch</div><br><div class="pill" style="margin-top:10px">🧵 15 Years of Tailoring Expertise</div> <div class="pill" style="margin-top:10px">📜 Government Certificate Provided</div>
+</div></section>
+
+<section id="timings"><div class="wrap rv">
+<h2>Flexible Batch Timings</h2>
+<p class="sub">Students can choose whichever batch is convenient for them — either the morning or the afternoon batch.</p>
+<div class="tm"><div class="slot"><span>Morning Batch</span><b>10:00 AM – 12:00 PM</b></div><div class="slot"><span>Afternoon Batch</span><b>2:00 PM – 4:00 PM</b></div></div>
+<p class="note">Classes are conducted Monday to Friday.</p>
+</div></section>
+
+<section id="courses" style="background:var(--lav)"><div class="wrap">
+<h2>Our Courses</h2><p class="sub">Clear fees, short durations. Every course runs in the morning or afternoon batch.</p>
+<div class="grid" id="cg"></div>
+</div></section>
+
+<section><div class="wrap">
+<h2>Your Learning Journey</h2><p class="sub">Start where you are. Take courses in order, or pick the one you need.</p>
+<div class="path rv">
+<div class="pc"><h3>Blouse Path</h3><div class="step">Basic Tailoring</div><div class="arr">↓</div><div class="step">Blouse</div><div class="arr">↓</div><div class="step">Modeling Blouse</div><small>Modeling Blouse can be taken after completing the Blouse course, OR if you already know blouse stitching.</small></div>
+<div class="pc"><h3>Chudithar Path</h3><div class="step">Chudithar</div><div class="arr">→</div><div class="step">Modeling Chudithar</div></div>
+<div class="pc"><h3>Independent Courses</h3><div class="step">Uniform, Phenoform &amp; Coat Model</div><div style="height:10px"></div><div class="step">Gents Pant &amp; Shirt</div></div>
+</div></div></section>
+
+<section id="about" style="background:var(--soft)"><div class="wrap">
+<h2>Why Choose Us</h2><p class="sub">A welcoming centre with 15 years of expertise in practical sewing and garment-making for women.</p>
+<div class="grid" id="fg"></div>
+</div></section>
+
+<section><div class="wrap rv"><div class="cert"><h2>Government Certificate Provided</h2><p>Students receive a Government certificate, which they can use to get a free machine from the Government.</p></div></div></section>
+
+<section class="batch"><div class="wrap rv">
+<h2>Choose Your Convenient Batch</h2>
+<div class="bg2"><div class="bx">Morning Batch<b>10:00 AM – 12:00 PM</b></div><div class="or">OR</div><div class="bx">Afternoon Batch<b>2:00 PM – 4:00 PM</b></div></div>
+<p style="margin-bottom:20px">Monday – Friday</p>
+<a class="btn" href="#contact">Join Your Preferred Batch</a>
+</div></section>
+
+<section><div class="wrap rv">
+<h2>Fee Overview</h2><p class="sub">All fees in Indian Rupees (₹).</p>
+<div class="tbl"><table><thead><tr><th>Course</th><th>Duration</th><th>Fee</th></tr></thead><tbody id="tb"></tbody></table></div>
+<p class="note">Batch timings: 10 AM–12 PM or 2 PM–4 PM | Monday–Friday</p>
+</div></section>
+
+<section class="cta" id="contact"><div class="wrap rv">
+<h2>Ready to Learn Tailoring?</h2>
+<p class="sub">Choose your course and preferred batch and start learning practical tailoring skills.</p>
+<div class="btns"><a class="btn pri" href="#enq">Enquire Now</a><a class="btn out" data-call href="#enq">Call Us</a><a class="btn wa" data-wa href="#enq">WhatsApp Us</a></div>
+<p class="addr">📍 31, Kamaraj Street, CSI Church Backside, Walajapet - 632 513<br>📞 <a href="tel:+919600591354">+91 96005 91354</a> (Call / WhatsApp)</p>
+<form id="enq" onsubmit="return sub(event)">
+<label>Name<input name="n" required autocomplete="name"></label>
+<label>Phone Number<input name="p" type="tel" required inputmode="tel" autocomplete="tel"></label>
+<label>Course Interested In<select name="c" id="cs" required><option value="">Select a course</option></select></label>
+<label>Preferred Batch<select name="b" required><option value="">Select a batch</option><option>Morning: 10 AM – 12 PM</option><option>Afternoon: 2 PM – 4 PM</option></select></label>
+<label>Message<textarea name="m" rows="3"></textarea></label>
+<button class="btn pri" type="submit">Submit Enquiry</button>
+<div class="ok" id="ok">Thank you! Your enquiry has been received. We will contact you soon.</div>
+</form></div></section>
+
+<section><div class="wrap"><h2 style="margin-bottom:24px">Frequently Asked Questions</h2>
+<details><summary>Who can join the courses?</summary><p>Women interested in learning tailoring can join. Beginners can start with the Basic course.</p></details>
+<details><summary>What are the class timings?</summary><p>Classes are conducted in two batches: 10 AM–12 PM and 2 PM–4 PM.</p></details>
+<details><summary>Which days are classes conducted?</summary><p>Monday to Friday.</p></details>
+<details><summary>Can I choose my batch?</summary><p>Yes. Students can choose either the morning or afternoon batch according to their convenience.</p></details>
+<details><summary>Can I join Modeling Blouse directly?</summary><p>Yes, if you have already learned blouse stitching or have prior knowledge. Otherwise, complete the Blouse course first.</p></details>
+<details><summary>Will I get a certificate?</summary><p>Yes. A Government certificate will be provided, which students can use to get a free machine from the Government.</p></details>
+<details><summary>Is the Basic course suitable for beginners?</summary><p>Yes. The Basic course is designed for beginners.</p></details>
+</div></section>
+
+<footer><div class="wrap"><h3>New Tailoring Training Centre (Women)</h3>
+<p>Monday – Friday | 10 AM–12 PM | 2 PM–4 PM</p>
+<p style="margin-top:6px">31, Kamaraj Street, CSI Church Backside, Walajapet - 632 513<br>+91 96005 91354</p>
+<nav><a href="#home">Home</a><a href="#courses">Courses</a><a href="#timings">Timings</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+<small>© 2026 New Tailoring Training Centre. All Rights Reserved.</small></div></footer>
+
+<div class="bar"><a data-call href="#enq" style="background:var(--mar2)">📞 Call</a><a data-wa href="#enq" style="background:var(--wa)">WhatsApp</a><a href="#enq" style="background:var(--mar)">Enquire</a></div>
+
+<script>
+var PHONE="+919600591354", WHATSAPP="919600591354";
+var C=[
+["Basic Tailoring","1 Month","₹1,000","","Perfect for beginners who want to learn the fundamentals of tailoring and sewing.",1],
+["Blouse Stitching","2 Months",["₹1,200","₹1,800"],"","Learn blouse stitching techniques step-by-step, from basic construction to advanced fitting and finishing."],
+["Modeling Blouse","1 Month","₹3,000","Prerequisite: Available after completing the Blouse course or for students who already have prior blouse-stitching knowledge.","Learn advanced and stylish blouse designs with professional fitting, patterns and finishing techniques."],
+["Chudithar","1 Month","₹1,500","","Learn how to cut and stitch Chudithar garments with proper measurements, fitting and finishing."],
+["Modeling Chudithar","1 Month","₹2,000","","Learn modern Chudithar designs, styling, cutting and stitching techniques."],
+["Uniform, Phenoform & Coat Model","1 Month","₹3,000","","Practical training in stitching uniforms, phenoform designs and coat-model garments."],
+["Gents Dress – Pant & Shirt","1 Month","₹4,000","","Learn professional cutting and stitching techniques for men's dress pants and shirts."]];
+var F=[["🧵","Practical Training","Learn through hands-on tailoring practice."],["🕙","Flexible Batches","Choose between morning and afternoon batches."],["📅","Monday–Friday Classes","Regular weekday training for consistent learning."],["👗","Multiple Courses","Learn everything from basic tailoring to advanced garment models."],["🌸","Beginner Friendly","Basic course available for students with no prior experience."],["✂️","Skill-Based Learning","Focus on practical skills that can be used personally or professionally."]];
+var $=function(i){return document.getElementById(i)};
+$("cg").innerHTML=C.map(function(c){var f=Array.isArray(c[2])?'<div class="split"><div>Month 1<b>'+c[2][0]+'</b></div><div>Month 2<b>'+c[2][1]+'</b></div></div>':'<div class="fee">'+c[2]+'<small>total fee</small></div>';
+return '<div class="card rv'+(c[5]?' starter':'')+'">'+(c[5]?'<span class="badge">Great for beginners</span>':'')+'<h3>'+c[0]+'</h3><div class="dur">⏱ '+c[1]+'</div>'+f+(c[3]?'<div class="pre">'+c[3]+'</div>':'')+'<p>'+c[4]+'</p><a class="btn out" href="#enq" onclick="pick(\''+c[0].replace(/'/g,"\\'")+'\')">Enquire Now</a></div>'}).join("");
+$("fg").innerHTML=F.map(function(f){return '<div class="card feat rv"><div class="ic">'+f[0]+'</div><h3>'+f[1]+'</h3><p>'+f[2]+'</p></div>'}).join("");
+var T=[["Basic","1 Month","₹1,000"],["Blouse – Month 1","1 Month","₹1,200"],["Blouse – Month 2","1 Month","₹1,800"],["Modeling Blouse","1 Month","₹3,000"],["Chudithar","1 Month","₹1,500"],["Modeling Chudithar","1 Month","₹2,000"],["Uniform, Phenoform & Coat Model","1 Month","₹3,000"],["Gents Pant & Shirt","1 Month","₹4,000"]];
+$("tb").innerHTML=T.map(function(r){return '<tr><td>'+r[0].replace("&","&amp;")+'</td><td>'+r[1]+'</td><td>'+r[2]+'</td></tr>'}).join("");
+$("cs").innerHTML+=C.map(function(c){return '<option>'+c[0].replace("&","&amp;")+'</option>'}).join("");
+function pick(n){$("cs").value=n}
+document.querySelectorAll("[data-call]").forEach(function(a){if(PHONE)a.href="tel:"+PHONE});
+document.querySelectorAll("[data-wa]").forEach(function(a){if(WHATSAPP){a.href="https://wa.me/"+WHATSAPP;a.target="_blank";a.rel="noopener"}});
+function sub(e){e.preventDefault();var f=e.target;
+if(WHATSAPP){var t="Enquiry%0AName: "+encodeURIComponent(f.n.value)+"%0APhone: "+encodeURIComponent(f.p.value)+"%0ACourse: "+encodeURIComponent(f.c.value)+"%0ABatch: "+encodeURIComponent(f.b.value)+"%0AMessage: "+encodeURIComponent(f.m.value);window.open("https://wa.me/"+WHATSAPP+"?text="+t,"_blank")}
+$("ok").style.display="block";f.reset();$("ok").scrollIntoView({behavior:"smooth",block:"center"});return false}
+var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}})},{threshold:.1});
+document.querySelectorAll(".rv").forEach(function(el){io.observe(el)});
+</script>
+</body>
+</html>
